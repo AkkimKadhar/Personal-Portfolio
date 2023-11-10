@@ -11,23 +11,24 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
-        form.current,
-        "VLwg1ltOWvnCYAiK_"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-          form.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+    .sendForm(
+      "service_09ncjkr",
+      "template_wcvrzbp",
+      form.current,
+      "XxsIucWW_OmyjQ2Dr"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+        setDone(true);
+        form.reset();
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+    alert("Response has been Submitted")
+};
 
   return (
     <div className="contact-form" id="contact">
@@ -46,8 +47,8 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <input type="text" name="from_name" className="user"  placeholder="Name"/>
+          <input type="email" name="from_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
