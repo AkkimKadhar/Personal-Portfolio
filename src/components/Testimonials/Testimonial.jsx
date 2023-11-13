@@ -30,7 +30,7 @@ const Testimonial = () => {
     {
       img: profilePic4,
       review:
-        "Simple enough to learn quickly and get around easily, complicated enough to get really organized and track a lot of info. Love the visually simple design. And love the collaboration possible with clients ishu",
+        "ishu Simple enough to learn quickly and get around easily, complicated enough to get really organized and track a lot of info. Love the visually simple design. And love the collaboration possible with clients",
     },
   ];
 
