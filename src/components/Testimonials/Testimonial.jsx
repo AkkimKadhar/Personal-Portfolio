@@ -6,7 +6,7 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
+import profilePic2 from "../../img/profile5.jpg";
 import profilePic3 from "../../img/profile3.jpg";
 import profilePic4 from "../../img/profile4.jpg";
 
@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "It is easy to use and keeps me really organised and on task, plus the price is great. I highly recommend it to both teams and solo-preneurs who are looking for a reliable tool to keep them on task.",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Thanks to MAK for creating such a easy to use and very powerful project management platform. The Payment option and the custom domain option is very useful to promote my own brand.",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Simple and quick. Way to manage projects is very easy because you have few right options to manage normal projects and task without many subtask or complicated structure as many of other solutions.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Simple enough to learn quickly and get around easily, complicated enough to get really organized and track a lot of info. Love the visually simple design. And love the collaboration possible with clients that restricts them enough that it's even easier to use for them and they can't mess anything up",
     },
   ];
 
